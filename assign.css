@@ -228,11 +228,11 @@ color:black;
 }
 .animat{
   height: 50px;
- animation-name: anim1;
+ animation-name: example1;
   animation-duration: 2s;
-	animation-fill-mode: forwards;
-animation-timing-function: linear;
- 
+animation-fill-mode: forwards;
+animation-timing-function:linear;
+
 
 
 }
@@ -244,15 +244,16 @@ animation-timing-function: linear;
 font-weight:bold;
 padding:5px;
 font-family: 'Kumar One';
-  animation-name: anim2;
+  animation-name: example2;
   animation-duration: 2s;
-	animation-fill-mode: forwards;
-animation-timing-function: linear;
+animation-fill-mode: forwards;
+animation-timing-function:linear;
+
  }
 
 
 
-@keyframes anim1 {
+@keyframes example1 {
   0%   {left:0px;}
   25%  {background-color: #00FFCC; }
   50%  {background-color: #00CCCC;}
@@ -261,7 +262,7 @@ animation-timing-function: linear;
 }
 
 
-@keyframes anim2 {
+@keyframes example2 {
   0%   {left:0px;}
   25%  {margin-left:20%; }
   50%  {margin-left:40%;}
